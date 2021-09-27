@@ -1,0 +1,62 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* font-family: 'DotGothic16', sans-serif;
+font-family: 'Press Start 2P', cursive; */
+
+html{
+  font-size: 62.5%;
+  font-family: "DotGothic16", helvetica, sans-serif;
+}
+h1{
+  color: rgb(77,172,193);
+  font-size: 5rem;
+  font-family: "Press Start 2p";
+  margin-top: 5rem;
+  text-align: center;
+  text-shadow: .5rem .5rem rgb(156, 194, 96);
+}
+body{
+  background: url(../img/background.gif);
+  background-size: cover;
+}
+form{
+  margin-top: 5rem;
+  text-align: center;
+}
+img, li{
+  display: block;
+  height: 10rem;
+}
+img{
+  margin: 0 auto;
+}
+input, button{
+  background: rgb(202, 107,190);
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.results{
+  background: rgba(156,194,96,.5);
+  display: flex;
+  margin-top: 5rem;
+  text-align: center;
+}
+.unorderedLists{
+  font-size: 3rem;
+  justify-content: space-between;
+  width: 33%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
