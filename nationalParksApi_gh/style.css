@@ -1,0 +1,87 @@
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+
+  body{
+       background-image:url('yellow.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       font-family: 'Alegreya', serif;
+  }
+
+  h1{
+     font-size:40px;
+     color: rgb(255, 232, 158);
+     font-family: 'Alegreya', serif;
+     padding-top:7%;
+     margin-bottom:2%;
+  }
+
+  .wholeThing{
+       width:80%;
+       margin: auto;
+       height:450px;
+       margin-top:9%;
+       text-align: center;
+  }
+
+  #note{
+       font-size: 15px;
+       font-weight:200;
+       color: rgb(94, 85, 29);
+       font-style: italic;
+       text-align: center;
+       /* padding-right:25%;
+       padding-left:25%; */
+  }
+input, button{
+     font-family: 'Alegreya', serif;
+     font-size:20px;
+     border-radius:8px;
+     border:1px solid black;
+     padding:5px 20px 5px 20px;
+     margin:.5%;
+}
+
+
+input{
+     width: 25%;
+     margin-top:1%;
+     margin-bottom:2.5%;
+}
+
+.results{
+     height:110px;
+     width:80%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+#fee, #feeDescription{
+     font-size:28px;
+     width:50%;
+     float: left;
+     height:100%;
+     text-align:center;
+     padding-left:4%;
+     padding-right:4%;
+     color:rgb(67, 53, 5);
+     margin-top:2%;
+}
+
+#fee{
+     font-size:40px;
+     color:rgb(251, 244, 220);
+}
