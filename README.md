@@ -1,22 +1,15 @@
 # 📊 Project: Simple API 2
 
-### Goal: Display data returned from an api
+## KANYE. 
 
-### How to submit your code for review:
+A simple website to be enlightened by Kanye's wise words. 
+Click on the button to get a new saying.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Link to site:** https://kanye-nktruong.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## A Picture of the Website:
+![A website with a button saying "Learn from Kanye" and a Kanye quote "People tried to talk me out of running for President. Never let weak controlling people kill your spirit"](https://user-images.githubusercontent.com/88857875/135330287-594a5c56-3b74-46ef-a5a1-b696ce5a71af.png)
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
