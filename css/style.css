@@ -1,0 +1,78 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../css/rick.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  color: rgb(219 0 45);
+}
+
+div{
+  display: block;
+  margin: 0 auto;
+  width: 25em;
+}
+
+#header{
+  display: block;
+  margin: 0 auto;
+  width: 25em;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  width:10em;
+}
+
+h1{
+  margin-top: 0;
+  color: rgb(198 220 81);
+  background-color: black;
+  width:auto;
+}
+
+#imgHolder{
+  text-align: center;
+  width: 10em;
+  height: 10em;
+}
+/* input{
+
+} */
+
+button{
+  background-color: rgb(114 170 200);
+  border:none;
+  width: 10em;
+}
+
+h3{
+  text-align: center;
+  display: block;
+  background-color: black;
+}
+
+p{
+  background-color: black;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
