@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(red,pink);
+    height: 800px;
+}
+
+h1{
+    text-align: center;
+}
+
+#button{
+    background-color: black;
+    color:white;
+    margin-left: 47%;
+
+}
+
+img{
+    height:200px;
+    width:200px;
+    margin-right:4%;
+
+}
