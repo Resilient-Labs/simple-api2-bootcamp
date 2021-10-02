@@ -1,0 +1,16 @@
+body{
+  background-image: url(istockphoto-481775039-612x612.jpeg);
+  background-repeat:no-repeat;
+  background-size: 1500px;
+
+}
+
+h1 , p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Kulim Park', sans-serif;
+  text-align: center;
+}
+input ,button {
+  display: block;
+  margin : 0 auto;
+}
