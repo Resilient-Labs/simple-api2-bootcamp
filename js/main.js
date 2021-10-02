@@ -7,7 +7,7 @@ getWord.addEventListener('click',dictionary)
 
 
 function dictionary() {
-     fetch(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word.value}?key=7cf1c716-f6ef-4345-b081-4181a9ea9998`) 
+     fetch(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word.value}?key=KEY`) 
      .then(res => res.json())
      .then(data => {    
           data[0].shortdef !== undefined ? definition.innerHTML = `<b>${word.value}:</b> ${data[0].shortdef}` :  alert(`Not a Word In the dataionary`)
