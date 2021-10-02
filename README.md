@@ -2,21 +2,17 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+### The website that I created generates random images of cats.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### Link to project: https://thirsty-jepsen-c532a5.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img width="1436" alt="Screen Shot 2021-10-01 at 7 48 30 PM" src="https://user-images.githubusercontent.com/88958905/135697284-efff9a70-5df5-4c06-b3f1-a61acc1d08a1.png">
+
+### How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+To create this app the first major step I took was to research a working API to generate the pictures of kittens . After I found one I created a fetch within JavaScript. Next I created varibles to display the information given from the fetched API in the dom.
+
+### Lessons Learned:
+The major lesson I learned from this project was how to properly fetch an API.
