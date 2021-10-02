@@ -1,8 +1,10 @@
+
+//collabarted with Team hayden to succesfully complete team projects 
 document.querySelector('button').addEventListener('click', generate)
 
 function generate() {
 	let park = document.querySelector('input').value
-	const url = (`https://developer.nps.gov/api/v1/parks?q=${park}&api_key=FdzJLjQMYp2dG3sGIdjHBCYcXJGmWdSI68bQqQhQ
+	const url = (`https://developer.nps.gov/api/v1/parks?q=${park}&api_key=()
 	`)
 
 	fetch(url)
@@ -18,3 +20,4 @@ function generate() {
 			alert("Error - couldn't find results, sorry!")
 		})
 }
+//collabarted with Team hayden to succesfully complete team projects 
