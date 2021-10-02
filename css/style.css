@@ -1,0 +1,21 @@
+body{
+  text-align:center;
+  background-color: pink;
+}
+
+img{
+  height:450px;
+  width:750px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+
+}
+img[src=""],
+img:not([src]){
+  opacity: 0;
+}
+
+img[src="*"]{
+  opacity: 1;
+}
