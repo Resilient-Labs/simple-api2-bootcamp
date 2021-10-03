@@ -1,22 +1,27 @@
-# 📊 Project: Simple API 2
+# CoronaVirus Statistics
+This project is an website with an API that pulls health related information. The API is for Coronavirus information. You enter a US state and you will get returned the daily positive confirmed cases.
 
-### Goal: Display data returned from an api
+**Link to project:** 
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, Javascript
+
+To make this API based website we are going to be using Javascript and fetch syntax to work with the API interfaces.
+
+what the API does:
+enter a US state
+gets the current day positive confirmed cases for the state
+
+## Optimizations
+
+
+## Lessons Learned:
+
+A great takeaway for this project would be using for loops to deal with the parsed JSON data. using a for loop you can grab specific values, assign them to variables, and use them as parameters in other API interfaces. 
+
+## Examples:
+
+
