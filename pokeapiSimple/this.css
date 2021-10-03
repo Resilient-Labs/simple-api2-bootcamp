@@ -1,0 +1,19 @@
+/* .forTheMon{
+    width: 300px;
+    height: 500px;
+} */
+body{
+    background:pink;
+}
+.info, .pokemon, .effectivity{
+    background: linear-gradient(#49DB98, #C08AE7, #FFC300, #39D8CA);
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info{
+    margin-top: 7%;
+}
