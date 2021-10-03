@@ -12,64 +12,38 @@ function getMon() {
     .then((pokemon) => generateHtml(pokemon));
 
   const generateHtml = (data) => {
-    console.log(data);
-    let pokeType = data.types;
-    if (pokeType.length > 1) {
-      const html = `
-        <div class='name'>${data.name}</div>
-        <img src=${data.sprites.front_default}>
-        <div class='details'>
-            <span>height: ${data.height}</span>
-            <span>type: ${data.types[0].type.name}, ${data.types[1].type.name} </span>
-        </div>
-        `;
-      const pokemonDiv = document.querySelector(".pokemon");
-      pokemonDiv.innerHTML = html;
-    } else{
-      const html = `
-        <div class='name'>${data.name}</div>
-        <img src=${data.sprites.front_default}>
-        <div class='details'>
-            <span>height: ${data.height}</span>
-            <span>type: ${data.types[0].type.name}</span>
-        </div>
-        `;
-      const pokemonDiv = document.querySelector(".pokemon");
-      pokemonDiv.innerHTML = html;
-    }
-    //line 31-issue with placing multiple properties
-    let url2 = `https://pokeapi.co/api/v2/type/${data.types[0].type.name}/`;
-    fetch(url2)
-      .then((res) => res.json())
-      .then((typeMatches) => generateHtml2(typeMatches));
+      console.log(data);
+      let pokeType = data.types;
+      document.querySelector("img").src = data.sprites.front_default
 
-    const generateHtml2 = (res) => {
-      console.log(res);
-      const html2 = `
-        <div class='details'>
-          <p> weak to: ${res.damage_relations.double_damage_from[0].name}</p>
-          <p> strong against: ${res.damage_relations.double_damage_to[0].name}</p>
-        </div>`;
-      const pokemonDiv = document.querySelector(".pokeTypeChart");
-      pokemonDiv.innerHTML = html2;
-    };
+      let thisType = ''
+      for(let x in pokeType){
+        thisType += pokeType[x].type.name + "  \ "
+      }
+      document.querySelector('.pokeTypeChart').innerText = thisType
+
+      let url2 = `https://pokeapi.co/api/v2/type/${data.types[0].type.name}/`
+      fetch(url2)
+      .then((res) => res.json())
+      .then((typeMatches) => {
+        console.log(typeMatches)
+
+        let weaknesses = typeMatches.damage_relations.double_damage_from
+        let weakText = ''
+        for (let ele of weaknesses){
+          weakText += ele.name + "   "
+        }
+        document.querySelector('#weakTo').innerText = weakText
+
+        let strongText = ''
+        let strength = typeMatches.damage_relations.double_damage_to
+        for (let ele of strength){
+          strongText += ele.name + "    "
+        }
+        document.querySelector('#strongAgainst').innerText = strongText
+        
+
+      }); 
   };
 }
 
-//best time to ask what's in the input? after they click the function*******
-//is the deconstructed version of this
-
-// const apiUrl = `${apiData.url}${apiData.type}${apiData.id}`
-// console.log(apiUrl)
-//   const apiData = {
-//     url: "https://pokeapi.co/api/v2/",
-//     type: "pokemon", //make this one a function that puts in a random number?
-//   };
-//a function that takes a pokemon's type and returns an object has two properties, one is weak [array of types]and strong [array of types]
-
-// let pokemonTyping = {
-//     water: {
-//         weak: ['grass', 'electric'],
-//         strong: []
-//     }
-// }

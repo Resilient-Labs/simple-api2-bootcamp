@@ -7,13 +7,28 @@
     <title>PokeAPI</title>
     <link rel='stylesheet' href='this.css'>
 </head>
-<body>
-    <input id='pokemonSearch' placeholder='find the mon'></input>
-    <button>find the MON</button>
-
-    <section>
-        <div class='pokemon'></div>
-        <div class='pokeTypeChart'></div>
+<body class='overIt'>
+    <section class='info'>
+        <h1>Quick PokeType Finder</h1>
+        <p>okay look, we get it. pokemon is awesome, but who has time to remember all the type advantages... we're not computers... so here's a quick app that'll allow you to quickly search up typing advantages and weaknesses</p> 
+        <input id='pokemonSearch' placeholder='find the mon'></input>
+        <button>find the 'mon</button>
+    </section>
+    <section class='forTheMon'>
+        <div class='pokemon'>
+            <img src=''>
+            <section>
+                <label for='pokeTypeChart'>this Pokemon's Typing</label>
+                <p class='pokeTypeChart'></p> 
+            </section>
+        </div>
+        
+        <div class='effectivity'>
+            <label for='weakTo'>disadvantage:</label>
+            <p id='weakTo'></p>
+            <label for='strongAgainst'>advantages:</label>
+            <p id='strongAgainst'></p>
+        </div>
     </section>
     
     <script src='this.js'></script>
