@@ -1,0 +1,114 @@
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html{
+  font-size: 62.5%;
+}
+body {
+	
+  font-family: 'Arial', sans-serif;
+  background-image: url(https://images.wallpapersden.com/image/download/pokemon-pikachu-art_a25tbW6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+	text-align: center;
+	color: white;
+	font-size: 6rem;
+}
+
+.outputBox{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input{
+	width: 20rem;
+	height: 3rem;
+	
+}
+
+button{
+		padding: 10px;
+		border-radius: 5px;
+		background-color:white;
+
+}
+
+.resultsBox{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.name{
+	margin-bottom: 1rem;
+	color: yellow;
+	font-size: 5rem;
+}
+
+.pokedex, .types{
+	margin-bottom: 1rem;
+}
+
+.resultsPics{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10rem;
+	flex-direction: row;
+}
+
+.resultsInfo{
+	width: 100%;
+	justify-content: center;
+	display: flex;
+}
+
+.information{
+  	text-align: justify;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
