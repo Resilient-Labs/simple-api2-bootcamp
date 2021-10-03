@@ -1,0 +1,42 @@
+body {
+  background: url(pimage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  font-size: 55px;
+  color: black;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.5);
+  height: 500px;
+  width: 600px;
+  margin-left: 50%;
+  margin-top: 5%;
+  border: 2px solid white;
+}
+
+button {
+  margin-left: 45%;
+  height: 50px;
+  width: 120px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+iframe {
+  height: 700px;
+  margin-left: 40%;
+  border: none;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
