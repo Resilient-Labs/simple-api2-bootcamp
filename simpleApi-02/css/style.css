@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+h1{
+  font-family:'Gluten';
+  font-size: 3rem;
+  text-align: center;
+}
+p{
+  position: absolute;
+  left: 65%;
+  top: 24%;
+  font-size: 1.75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-image: url(cat1.png);
+  background-repeat: no-repeat;
+  background-size: 82%;
+  background-position-x: 210px;
+  background-position-y: 371px;
+}
+button{
+  font-size: 1.25rem;
+  font-family:'Gluten';
+  position: absolute;
+  left: 47%;
+  top: 19%;
+  background-color: rgb(191,211,158);
+  border-radius: 25px;
+}
+.bubble{
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  height: 296px;
+  width: 346px;
+}
+.genImg {
+  position: absolute;
+  left: 25px;
+  width: 450px;
+  height: 400px;
+}
