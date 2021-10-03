@@ -1,22 +1,13 @@
 # 📊 Project: Simple API 2
 
-### Goal: Display data returned from an api
+<img width="1449" alt="Screen Shot 2021-10-01 at 4 01 25 PM" src="https://user-images.githubusercontent.com/88988494/135699569-9fcf8679-8368-44d6-9be3-a391a36aafab.png">
 
-### How to submit your code for review:
+# Description: 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Allows user to enter the name of a Rick and Morty character, and returns the character's profile. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Tech Used:
+
+ HTML, CSS, JS, API, JSON 
+
+
