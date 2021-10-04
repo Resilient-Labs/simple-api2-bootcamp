@@ -3,7 +3,7 @@ This is a simple pokedex app that return's the pokemon and their description. Th
 Link to Project: [https://juliedodev-simpleapi2.netlify.app]
 
 
-<img src="simpleapi1.png">
+<img src="simpleapi2.png">
 
 How It's Made:
 
