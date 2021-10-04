@@ -3,15 +3,15 @@ This is a simple pokedex app that return's the pokemon and their description. Th
 Link to Project: [https://juliedodev-simpleapi2.netlify.app]
 
 
-<img src="simpleapi2.png">
+<img src="simpleapi1.png">
 
 How It's Made:
 
 Tech used: 
 <ul>
-<li>HTML<li>
+<li>HTML</li>
 <li>CSS</li>
-<li>JavaScript<li>
+<li>JavaScript</li>
 </ul>
 
 Optimizations:
