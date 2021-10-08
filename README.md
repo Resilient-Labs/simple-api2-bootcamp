@@ -4,7 +4,10 @@
 
 ### Goal: Display data returned from an api
 
-###
+### How it was made:
+This project was made with Html, css and JS and an API.
+### What I learned:
+I learned that API urls require some more research and that just copying and pasting a link wont work. 
 
 
 
