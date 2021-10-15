@@ -1,0 +1,11 @@
+*{
+  font-family: 'Permanent Marker', cursive;
+}
+body{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+button{
+  font-size: 1em;
+}
