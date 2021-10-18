@@ -1,6 +1,6 @@
 # Fun Translations 📖
 
-Enter your text and select the language you want to translate it to, finally have fun translating! (note: this application is currently English-based) 
+Enter your text and select the language you want to translate it to, have fun translating!
 
 **Live Demo:** <a href="https://fun-translations-jenna-nguyen.netlify.app/">Demo</a>
 
@@ -12,3 +12,6 @@ This is a simple API application that starts off by storing the user inputs (tex
 
 ## What I Learned
 Because I wanted the user to be able to input data in a paragraph format, I learned about the textarea tag. It was a more syntactically correct and cleaner approach of displaying the user input, compared to just a typical single-lined input box.
+
+<i>note: this application is currently English-based</i>
+
