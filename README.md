@@ -1,6 +1,6 @@
 # Fun Translations 📖
 
-Enter your text and select the language you want to translate it to, have fun translating!
+Just enter your text and select the language you want to translate it to, have fun translating!
 
 **Live Demo:** <a href="https://fun-translations-jenna-nguyen.netlify.app/">Demo</a>
 
