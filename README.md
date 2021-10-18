@@ -1,22 +1,17 @@
-# 📊 Project: Simple API 2
+# Fun Translations 📖
 
-### Goal: Display data returned from an api
+Simply enter your text and select the language you want to translate it to, have fun translating!
 
-### How to submit your code for review:
+**Live Demo:** <a href="https://fun-translations-jenna-nguyen.netlify.app/">Demo</a>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img width="951" alt="Translation API" src="https://user-images.githubusercontent.com/88993361/137766115-1a0f2f25-e4d3-4d18-a6b1-904d621d7ee6.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made
+
+This is a simple API application that starts off by storing the user inputs (text and lanuage) as variables, then those variables are entered as parameter values before sending a request to the Fun Translations API. The data relayed back after the successful fetch request is displayed using the innerHTML element property.
+
+## What I Learned
+Because I wanted the user to be able to input data in a paragraph format, I learned about the textarea tag. It was a more syntactically correct and cleaner approach of displaying the user input, compared to just a typical single-lined input box.
+
+<i>note: this application is currently English-based</i>
+
