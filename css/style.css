@@ -1,0 +1,12 @@
+img{
+  width: 200px;
+}
+
+section{
+  text-align: center;
+}
+
+body{
+  background: url(../background.gif);
+  background-size: cover;
+}
