@@ -1,3 +1,45 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background: blue;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  color: yellow;
+  border-bottom: 10px double yellow;
+  margin: 5px;
+}
+
+input, button {
+  height: 40px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+}
+
+#movieInfo {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    font-size: 13px;
+}
+
+#movieImg {
+  padding: 10px;
+}

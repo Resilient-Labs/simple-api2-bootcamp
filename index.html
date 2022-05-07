@@ -2,9 +2,55 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blockbuster</title>
   </head>
   <body>
+    <!-- Header -->
+    <header>
+      <h1>Blockbuster Movies <i class="fa-solid fa-ticket"></i></h1>
+        </header>
 
+
+<!-- Search and Input -->
+<main>
+
+<section class="searchMovies">
+  <section class="direction">
+    <h4>Search for any movie title to retreive information and it's corresponding poster.</h4>
+  </section>
+
+  <form class="movieSearch" action="index.html" method="post">
+    <input type="text" placeholder="Enter Movie Title">
+    <button type="button" name="button">Search</button>
+  </form>
+</section>
+
+
+
+<section id="movieInfo">
+  <!-- Movie Image -->
+        <section id="movieImg">
+          <img src="" alt="">
+        </section>
+
+
+  <!-- Movie Info -->
+        <section id="info">
+          <h3 id="title"></h3>
+          <h3 id="year"></h3>
+          <h3 id="rated"></h3>
+          <h3 id="actors"></h3>
+          <h3 id="ratings"></h3>
+          <h3 id="plot"></h3>
+        </section>
+
+</section>
+
+    </main>
+
+
+    <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
