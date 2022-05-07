@@ -1,22 +1,15 @@
-# 📊 Project: Simple API 2
+# Blockbuster Movies
 
-### Goal: Display data returned from an api
+### Goal
+Search for a movie by it's title and receive infomation about that movie.
 
-### How to submit your code for review:
+![Screen Shot 2022-05-07 at 2 11 22 AM](https://user-images.githubusercontent.com/88361309/167241254-3c3d45b3-45d7-4511-b727-0d01339952f5.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Screen Shot 2022-05-07 at 2 12 04 AM](https://user-images.githubusercontent.com/88361309/167241259-2e7e609b-2629-4271-8287-e14a23537a06.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+### How It's Made
+This app is made with HTML and CSS. I use flexbox to position my elements.
+
+### Functionality
+For this app I utilized Javascript and the OMDB API to pull in information about movies searched by title.
