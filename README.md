@@ -1,4 +1,4 @@
-# BlockBuster API
+# BlockBuster Movies
 
 ### Goal
 Search for a movie by it's title and receive infomation about that movie.
