@@ -7,6 +7,18 @@ body {
     background: url('https://www.teahub.io/photos/full/105-1056074_funny-emoji-facebook-cover.jpg');
 }
 
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(11, 13, 153);
+    font-weight: bolder;
+    font-style: italic;
+}
+
 .jokez {
     font-size: 2rem;
     font-style: italic;
@@ -15,7 +27,6 @@ body {
     color: black;
     background-color: rgba(255, 255, 255, 0.474);
     border-radius: 50% 20%;
-    margin-top: 156px;
 }
 
 input {
