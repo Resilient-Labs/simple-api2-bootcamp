@@ -1,0 +1,17 @@
+body{
+  margin: auto;
+  text-align: center;
+}
+
+html{
+  background: url(../tumbl.webp);
+  font-family: berkshire swash, 'open sans', 'sans-serif';
+  color: whitesmoke;
+}
+
+h1{
+  font-size: 350%;
+}
+img{
+  margin: auto;
+}
