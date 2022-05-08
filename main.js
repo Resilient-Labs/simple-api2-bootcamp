@@ -16,9 +16,13 @@ function pickCard(e) {
         fetch(draw)
         .then(res => res.json()) // parse response as JSON
         .then(data => {
+        console.log(data)
         console.log(data.cards[0])
+            let cardTitle = document.querySelector('#cardName')
             let theCard = document.querySelector('img')
+
             theCard.style.display = 'block'
+            cardTitle.innerText = `You picked the ${data.cards[0].value} of ${data.cards[0].suit}`
             theCard.src = data.cards[0].images.png
 
         })
