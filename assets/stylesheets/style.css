@@ -19,3 +19,7 @@ html {
     line-height: 0;
     height: 0;
 }
+
+.results {
+    font-size: 2rem;
+}
