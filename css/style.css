@@ -1,0 +1,36 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+}
+h1, h2, h3, h4, div, img{
+  align-self: center;
+  font-family: 'Macondo', 'Helvetica', sans-serif;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  background-color: #e0c396;
+}
+h1{
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+h3{
+  margin-top: 0;
+}
