@@ -1,0 +1,31 @@
+body{
+    background-image: url(./images/crypto.gif);
+    background-repeat: no-repeat;
+    background-size: 115%;
+}
+
+h1{
+    text-align: center;
+    color: bisque;
+}
+h2{
+    color: white;
+    font-size: 40px;
+}
+input{
+    margin-left: 500px;
+    margin-top: 100px;
+    height: 30px;
+    width: 20%;
+}
+button{
+    height: 35px;
+}
+.price{
+    color: green;
+    font-size: 40px;
+}
+.volume{
+    color: rgb(243, 76, 76);
+    font-size: 40px;
+}
