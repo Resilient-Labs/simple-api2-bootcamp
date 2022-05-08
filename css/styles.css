@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://media3.giphy.com/media/5hjafWYNOioM6SD6Tl/giphy.gif?cid=790b7611a4b0a77d5e5a4100792be8d7649d0100b5b8ed29&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-position: 5px 330px;
+    background-size: 100% 200%;
+}
+
+.cryptoDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    background: rgb(61 52 153 / 20%);
+}
+
+#btcmarket {
+    width: auto;
+    height: auto;
+    background: white;
+    font-size: 2em;
+}
+
+#btcmarket2 {
+    width: auto;
+    height: auto;
+    background: white;
+    font-size: 2em;
+}
+
+#btcmarket3 {
+    width: auto;
+    height: auto;
+    background: white;
+    font-size: 2em;
+}
+
+label {
+    height: auto;
+    width: auto;
+    background: red;
+    font-size: 3em;
+}   font-size: 3em;
+}
