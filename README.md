@@ -1,22 +1,21 @@
-# 📊 Project: Simple API 2
+# Nasa Facility Weather Checker
 
-### Goal: Display data returned from an api
+This app allows the user to see a random jokes every visit as well as a button to see a new joke. All jokes are clean, good natured and safe for work.
 
-### How to submit your code for review:
+**Link to project:** https://cydvilla.github.io/jokes-api/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt](jokes.gif)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+Utilziing JavaScript, this project displays data, more specifically joke data, from the jokeAPI. Jokes are delievered in either one-liner or two part format, a random joke is recieved from looping through the joke object containing jokes. 
+<!-- ## Optimizations
+*(optional)*
+
+You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews! -->
+
+## Lessons Learned:
+
+The answer is always in the documentation, don't waste time guessing when everything is right in front of you.
