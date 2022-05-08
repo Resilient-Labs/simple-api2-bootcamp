@@ -1,0 +1,37 @@
+body{
+background-image: url(https://us.123rf.com/450wm/dariaustiugova/dariaustiugova1811/dariaustiugova181100015/112522391-old-paper-scroll-or-parchment-with-pen-and-inkwell-watercolor-hand-drawn-illustration-isolated-on-wh.jpg?ver=6);
+background-position: cover;
+background-size: 80vw 180vh;
+background-repeat: no-repeat; 
+background-color: bisque;
+background-position: center;
+}
+/* *{
+background-color: bisque;
+} */
+
+h1{
+margin-left:400px;
+margin-top: 60px; 
+}
+
+h2{
+width: 478px;
+margin-left:350px;
+}
+
+input{
+margin-left:450px;
+}
+
+button{
+
+}
+
+div{
+
+}
+
+p{
+
+}
