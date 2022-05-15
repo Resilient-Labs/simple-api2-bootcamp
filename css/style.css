@@ -3,4 +3,21 @@
 }
 body{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+section{
+    height: 300px;
+    width: 30%;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgb(63, 82, 123);
+    display: grid;
+}
+h1{
+    text-align: center;
 }
