@@ -4,6 +4,8 @@
 
 ### Click the button to find an event from SeatGeek!
 
+*Project completed using HTML, CSS, and Javascript.*
+
 <!-- ### How to submit your code for review:
 
 - Fork and clone this repo
