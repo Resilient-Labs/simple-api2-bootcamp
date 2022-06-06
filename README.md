@@ -1,8 +1,10 @@
-# 📊 Project: Simple API 2
+# SeatGeek API
 
-### Goal: Display data returned from an api
+### Goal: Display data returned from an api.
 
-### How to submit your code for review:
+### Click the button to find an event from SeatGeek!
+
+<!-- ### How to submit your code for review:
 
 - Fork and clone this repo
 - Create a new branch called answer
@@ -19,4 +21,4 @@ Example:
 I completed the challenge: 5
 I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
-```
+``` -->
