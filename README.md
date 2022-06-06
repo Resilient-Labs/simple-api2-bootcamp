@@ -6,6 +6,8 @@
 
 *Project completed using HTML, CSS, and Javascript.*
 
+![seatgeek api](seatgeek.png)
+
 <!-- ### How to submit your code for review:
 
 - Fork and clone this repo
