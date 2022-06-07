@@ -1,22 +1,7 @@
-# 📊 Project: Simple API 2
+<h1 align="center"> NASA Pic of the day API </h1>
+<p align="center"> This project uses a pokemon API that lets the user enter the name of any pokemone. The user will then get a random picture of the pokemon and have the picture/info display in the DOM.</p>
+ 
 
-### Goal: Display data returned from an api
+ ![ss8](https://user-images.githubusercontent.com/101954954/172292401-54732a7f-9508-4a1b-90b2-cce1128edc18.png)
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+ Tech used: HTML, CSS, JavaScript, Web API
