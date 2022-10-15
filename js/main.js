@@ -34,6 +34,7 @@ class Player {
         fetch("http://data.nba.net/10s/prod/v1/2016/players.json")
             .then(res => res.json()) // parse response as JSON
             .then(data => {
+                console.log(data)
 
                 // Look through all the data returned and find a property that matches the first and last name the user entered.  
                 for(let i = 0; i < data.league.standard.length; i++) {
