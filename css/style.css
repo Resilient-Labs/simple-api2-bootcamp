@@ -1,0 +1,91 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: rgba(33, 33, 33, 1);
+
+}
+
+header {
+  border-bottom: 1px solid rgba(97, 97, 97, 1);
+}
+
+header input {
+  margin: 2rem 2rem;
+  border: 1px solid  rgba(97, 97, 97, 1);
+  font-size: 1.5rem;
+  width: 450px;
+  padding: 10px;
+  background: rgba(33, 33, 33, 1);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(237, 239, 241, 1);
+
+}
+
+button {
+  background: rgba(33, 33, 33, 1);
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 1px solid  rgba(97, 97, 97, 1);
+
+  font-size: 2rem;
+  border-radius: .9rem;
+  color: rgba(237, 239, 241, 1);
+  width: 15rem;
+  height: 5rem;
+  margin: 2rem 2rem;
+
+
+}
+
+section {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+section > div {
+  border-bottom: 1px solid rgba(97, 97, 97, 1);
+  font-size: 2.5rem;
+  margin: 4rem auto;
+  width: 35%;
+  padding-bottom: 10rem;
+  color: rgba(237, 239, 241, 1);
+  font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+#noBorder {
+  border: none;
+}
+
+div span {
+  display: inline-block;
+  margin-top: 5rem ;
+  font-size: 3.5rem;
+}
