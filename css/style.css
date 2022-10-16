@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+}
+
+h2::first-letter {
+    text-transform: capitalize;
+}
+
+section {
+    width: 25%;
+    height: 500px;
+    float: left;
+}
+
