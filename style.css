@@ -1,0 +1,32 @@
+main {
+    border: 1px solid black;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    background-color: plum;
+}
+
+div {
+    width: 220px;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+
+div{
+    margin-left: 260px;
+    margin-top: -15px;
+    float: left;
+
+}
+
+h1 {
+    margin-left: 300px;
+    margin-top: 0px;
+    
+}
