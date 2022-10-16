@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    background: black;
+    color: red;
+}
+
+h1{
+    font-size: 40px;
+    padding-left: 30%;
+}
+button{
+    background: red;
+    color: white;
+    border: 0;
+    height: 40px;
+    width: 10%;
+    border-radius: 4px;
+    margin-left: 37%;
+}
+
+h2,h3 {
+    font-size: 40px;
+    color: white;
+    width: 70%;
+    padding-left: 10%;
+}
+
