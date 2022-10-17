@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+body{
+    background: teal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 50%;
+    float: left;
+}
+
+.main {
+    font-size: 45px;
+}
+
+.mediaSection {
+    padding-left: 70px;
+}
