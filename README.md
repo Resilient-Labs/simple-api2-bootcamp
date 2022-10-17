@@ -1,8 +1,8 @@
-# Project: Simple API
+# Project: Simple API 2
 
 An application that when a button is pressed a Pokemon will appear as a text from the Pokeapi.
-Check it out here: https://papaya-sorbet-a0c79c.netlify.app/
-![image](https://user-images.githubusercontent.com/112406976/196259685-e37b4db7-c9d9-485f-9511-aa6b797b4e8f.png)
+Check it out here: https://famous-gingersnap-37c381.netlify.app/
+![image](https://user-images.githubusercontent.com/112406976/196280277-237afa8b-b7ba-475a-924f-fc7218be11b1.png)
 # Tech Used: HTML, CSS, Javascript 
 This project took HTML, CSS, and Javascript to get the desired result. Used an API to extract data
 and display it back on the DOM. 
