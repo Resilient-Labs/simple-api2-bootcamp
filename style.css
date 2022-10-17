@@ -1,0 +1,37 @@
+body {
+  background-image: url(img/background.jpg);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color:white;
+}
+
+button {
+  height: 20px;
+  position: relative;
+  left: 385%;
+  bottom: 4%;
+}
+
+
+
+.mainBox {
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.imageBox {
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 400px;
+  width: 50%;
+  margin-top: 2%;
+  margin-right: 3%;
+
+}
