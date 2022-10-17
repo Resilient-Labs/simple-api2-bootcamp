@@ -1,15 +1,13 @@
-
-function getBreed(){
-fetch('https://api.thecatapi.com/v1/breeds')
+document.querySelector('button').addEventListener('click', getCharacter)
+function getCharacter(){
+fetch('https://www.breakingbadapi.com/api/character/random')
 .then(res => res.json())
 .then(data => {
-    for(let i = 0 ; i < data.length; i++){
-        console.log(data[i].name)
-    }
-
+    
+    document.querySelector('h1').innerText = data[0].name
+    document.querySelector('img').src = data[0].img 
 })
 .catch(err => {
     console.log(`error ${err}`)
 })
 }
-getBreed()
