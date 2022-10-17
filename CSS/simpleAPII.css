@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clearfix Hack */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Anton", sans-serif;
+  font-family: "Russo One", sans-serif;
+}
+
+body {
+  font-size: 40px;
+  background-image: url(colors2.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: pink;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  padding:1% 5%;
+  margin-top: 10%;
+  margin-left: 40%;
+  background-color: aqua;
+}
+
+h2,h3 {
+  color: yellow;
+  font-size: 60px;
+}
