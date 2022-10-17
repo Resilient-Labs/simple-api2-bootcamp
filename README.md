@@ -1,7 +1,7 @@
 # 📊 Project: Simple API 2
 
 ![image](https://user-images.githubusercontent.com/112201564/196258873-2caef728-352e-4938-84e4-f6e9f56741ef.png)
-
+### Tech used: Vanilla JS, HTML, CSS
 ### Goal: Display data returned from an api
 
 ### How to submit your code for review:
