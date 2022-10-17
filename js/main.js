@@ -1,3 +1,5 @@
+//SITE: https://breakingbadapi.com/documentation
+
 document.querySelector('button').addEventListener('click', getCharacter)
 function getCharacter(){
 fetch('https://www.breakingbadapi.com/api/character/random')
