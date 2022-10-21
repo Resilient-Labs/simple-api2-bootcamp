@@ -4,7 +4,9 @@
 
 Web application that displays a random piece of art stored in the Metropolitan Museum API
 
-![tv-ratings-database netlify app__showInput=futurama (1)](https://user-images.githubusercontent.com/111996055/197095250-23b1a68b-54f1-4803-8a52-596b02b220ad.png)
+[Link to Project](https://random-met-generator.netlify.app)
+
+![random-met-generator netlify app_](https://user-images.githubusercontent.com/111996055/197096485-1be79fb8-b612-4020-a077-06cd1074dcdd.png)
 
 ## How It's Made:
 HTML, CSS, JavaScript
