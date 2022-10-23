@@ -1,8 +1,11 @@
 ////Goal: Display data returned from an api
+
+//start getArt function when button is clicked
 document.querySelector('button').addEventListener('click', getArt)
 
 
 function getArt(){
+    //get random number for random object
     let objNumber = Math.round(Math.random() * (482317-0) + 0)
     console.log(objNumber)
     let url = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${objNumber}`
