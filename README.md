@@ -1,22 +1,16 @@
-# 📊 Project: Simple API 2
+# Random Art Generator
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+Web application that displays a random piece of art stored in the Metropolitan Museum API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+[Link to Project](https://random-met-generator.netlify.app)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![random-met-generator netlify app_](https://user-images.githubusercontent.com/111996055/197096485-1be79fb8-b612-4020-a077-06cd1074dcdd.png)
+
+## How It's Made:
+HTML, CSS, JavaScript
+
+
+## Lessons Learned:
+This project was great practice for communicating with an API and displaying the data returned
