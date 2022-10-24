@@ -1,5 +1,6 @@
-fetch('https://binaryjazz.us/wp-json/genrenator/v1/genre/')
+fetch('https://api.api-ninjas.com/v1/randomword?apiKey=mXeqiEZ2ofoExvDnCJBTsg==0CWPHF3Rxw4vZWBe')
     .then(res => res.json())
     .then (data => {
-        document.querySelector('h2').innerText = data
+        console.log(data)
+        document.querySelector('h2').innerText = data.word
     })
