@@ -1,22 +1,18 @@
 # 📊 Project: Simple API 2
 
-### Goal: Display data returned from an api
 
-### How to submit your code for review:
+![simple_api_two](https://user-images.githubusercontent.com/23227549/200634437-689db4be-6872-4627-80f4-ffd16c4c6389.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Link to project: https://void-simple-api-two.netlify.app/
+
+Tech used: HTML, CSS, JavaScript, cooking data Api!
+
+
+An application that allows the user to type in an ingredient and get a link to a youtube video that utilizes that ingredient.
+
+Optimizations:
+
+I had a blast making this one. I was really excited when I saw that the return object included a link to video media. 
+This was the first time I was able to incorporate that media format into a website Ive built! 
+I think this was the moment I really fell in love with APis (well, USEING them at least, finding a working one is another story...)  
