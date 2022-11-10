@@ -1,8 +1,8 @@
-# Food Tutorial Searcher
+# :fallen_leaf: :bat: Country Information :bat: :fallen_leaf:
 
-### This app has the user type in what food they're craving and it will find a video on youtube tutorial of that specific food
+### This app has the user type in what a country and it will return the name, captial, and population
 
-![foodapi](https://i.imgur.com/2rrwBd0.gif)
+!["country"](https://i.imgur.com/9cxYzuE.gif) 
 
 ```
 I completed the challenge: 5
