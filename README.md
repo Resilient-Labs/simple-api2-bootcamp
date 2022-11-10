@@ -1,6 +1,6 @@
-# 📊 Project: Simple API 2
+# Food Tutorial Searcher
 
-### Goal: Display data returned from an api
+### This app has the user type in what food they're craving and it will find a video on youtube tutorial of that specific food
 
 ![foodapi](https://i.imgur.com/2rrwBd0.gif)
 
