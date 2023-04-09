@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("manga\ background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+}
+
+html{
+    color: rgb(2, 0, 1);
+    font-family: "Bangers", sans-serif;
+    text-shadow: 2px 2px rgb(224, 72, 78);
+}
+
+button{
+    background-color: rgb(2, 0, 1);
+    color: rgb(244, 180, 72);
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: "Bangers", sans-serif;
+    font-size: 1.8rem;
+}
+h1{
+    font-size: 3.5rem;
+}
