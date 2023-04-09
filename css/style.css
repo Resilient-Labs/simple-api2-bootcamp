@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Shadows Into Light', cursive;
+}
+:root {
+  font-size: 62.5%;
+}
+.container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  border-radius: 10px;
+  margin: 1%;
+  border: 1px solid grey;
+  background-color: rgb(249 243 243 / 50%);
+  width: 18%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+h1{
+  font-size: 3rem;
+}
