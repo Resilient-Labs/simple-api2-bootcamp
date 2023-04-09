@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('grumps.jpeg');
+  background-size: cover;
+  font-family: 'Montserrat';
+  color: white;
+  margin-left: 20px;
+}
+  
+
+h1{
+  font-family: 'Lilita One';
+ 
+}
+
+button{
+  font-family: 'Montserrat';
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+input{
+  width: 15%;
+  height: 30px;
+  border-radius: 30px;
+  font-family: 'Montserrat';
+  border: none;
+}
+img{
+  border: none;
+  height: 300px;
+}
