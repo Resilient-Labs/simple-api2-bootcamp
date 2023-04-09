@@ -1,0 +1,32 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  background: url('../img/DothrakiBg.png');
+  background-repeat: no-repeat;
+  background-size: 1800px 1000px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 25%;
+  width: 50%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
