@@ -1,0 +1,38 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif; 
+  background-image: url(https://memeguy.com/photos/images/kanye-west-caught-smiling-once-again-169670.gif);
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+button{
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+}
