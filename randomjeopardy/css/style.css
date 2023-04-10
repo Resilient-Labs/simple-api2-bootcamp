@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    background: url('../css/pic/abstractblk.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Bungee Shade';
+    font-size: 4rem;
+    transform: skewY(-6deg);
+    color: aliceblue;
+    text-shadow: 2px 3px 7px royalblue;
+}
+
+h5 {
+    font-family: 'Rye';
+    font-size: 1.3rem;
+    display: inline-block;
+    color: gold;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+p {
+    font-family: 'Cinzel';
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+#question {
+    border-radius: 20%;
+    height: 50px;
+    width: 150px;
+    border: 5px outset whitesmoke;
+    background: rgba(8, 178, 190, 0.836);
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+#answer {
+    border-radius: 20%;
+    height: 50px;
+    width: 150px;
+    border: 5px outset whitesmoke;
+    background: rgba(8, 178, 190, 0.836);
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+h3 {
+    font-family: 'Cinzel';
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: red;
+    text-decoration: underline;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'Cinzel';
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
