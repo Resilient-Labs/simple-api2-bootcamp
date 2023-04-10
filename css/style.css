@@ -1,0 +1,33 @@
+body{
+    background-color: #BD3F3A;
+    transition: all 0.06s ease;
+    font-family: 'Raleway', sans-serif;
+}
+body:hover{
+    background-color: #700013;
+}
+.header, .button, h2, span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* h1{
+    padding: 35px;
+} */
+h2{
+    margin: 45px;
+}
+button{
+    margin: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.note{
+    padding: 100px;
+    border: double thick #700013;
+    margin: 70px 400px;
+    background-color: #f7f5de;
+    border-radius: 2rem;
+}
