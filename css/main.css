@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box:
+}
+
+h1{
+text-align: center;
+font-size: 2rem;
+color:red;
+}
+
+p{
+text-align: center;
+font-size:1rem;
+font-weight: bolder;
+COLOR:red;
+}
+
+body{
+background: url(../images/wine.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+main{
+height:700px;
+width:100%;
+border: 1px solid white;
+float:left;
+}
+
+.title{
+height:700px;
+width:16%;
+border: 1px solid white; 
+float:left;
+color: white;
+}
+
+
+.describe{
+  height:700px;
+  width:25%;
+  border: 1px solid white; 
+  float:left;
+  color: white;
+}
+
+
+.pric{
+  height:700px;
+  width:16%;
+  border: 1px solid white; 
+  float:left;
+  color: white;
+}
+
+.rating{
+  height:700px;
+  width:20%;
+  border: 1px solid white; 
+  float:left;
+  color:white;
+}
+
+.click{
+align-items: center;
+margin-left:48%;
+}
+
+img{
+margin-left:5%;
+}
+
+.pic{
+height:700px;
+width:22%;
+border:1px solid white; 
+float:left;
+color: white;
+}
