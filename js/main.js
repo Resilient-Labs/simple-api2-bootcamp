@@ -77,30 +77,3 @@ selectElement.addEventListener('change', getMoreInfo)
 
 
 
-
-
-
-// const hogwarts = document.querySelector('#lista')
-
-// function pickOneCharacter() {
-  
-//   let characeter = document.querySelector('#lista').value
-
-//   const url = (`https://hp-api.onrender.com/api/characters`)
-
-//   fetch(url)
-//   .then(res => res.json())
-//   .then(nameAndHouse => {
-//     console.log(nameAndHouse)
-//     let whoAreYou = document.querySelector('.drop').innerText = nameAndHouse.name
-//   })
-
-
-
-
-
-
-
-
-// }
-// document.querySelector('select').addEventListener('click', pickOneCharacter)
