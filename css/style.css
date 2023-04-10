@@ -1,0 +1,45 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: url(../img/matffactsbg.gif);
+  background-size: cover;
+
+}
+
+
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+section{
+  background: rgba(0, 0, 0, 0.736);
+  text-align: center;
+  width: 40%;
+  margin: 15% 30%;
+  height: 300px;
+}
+
+h1,h2,h3{
+  color: white;
+}
+
+.hidden{
+  display: none;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
