@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(45, 74, 124);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+button, input{
+  width: 10%;
+  border-radius: 6px;
+  text-align: center;
+  margin: 10px;
+}
+
+button{
+  background-color: rgb(73, 186, 133);
+  color: white;
+}
+img, iframe{
+  display: inline;
+  margin: 10px;
+  width: 50%;
+  background-size: contain;
+}
+h2, h4{
+  color: rgb(73, 186, 133);
+  font-size: 30px;
+  
+}
+
+h1{
+  font-size: 50px;
+}
+h4{
+  width: 75%;
+}
