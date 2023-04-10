@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/cooking-background.png);
+  background-size: cover;
+  color: white;
+  font-size: 2.3rem;
+
+  
+}
+button{
+  background-color:  rgba(5, 90, 90, 0.509);
+  color: white;
+}
+
+h1, h2, ul, li, h3, div{
+  
+  background-color: rgba(5, 90, 90, 0.509);
+}
+
+a{
+  color:white;
+}
+.hidden{
+  display:none
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
