@@ -1,6 +1,7 @@
 # 📊 Project: Simple API 2
 
 ### Goal: Display data returned from an api
+![is it mid screenshot](https://user-images.githubusercontent.com/126501848/230804587-9eeb9613-0389-4af7-82e5-7df61595a956.png)
 
 ### How to submit your code for review:
 
