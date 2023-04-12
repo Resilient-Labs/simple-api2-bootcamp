@@ -1,11 +1,10 @@
 document.querySelector('button').addEventListener('click', digiFetch)
 
-function digiFetch(){
-    fetch('https://digimon-api.vercel.app/api/digimon')
-    .then (res => res.json())
-    .then(data =>{
+async function digiFetch(){
+    const res = await fetch('https://digimon-api.vercel.app/api/digimon')
+    const data = await res.json()
         return randomDigi((data[Math.round(Math.random() * (209 - 0) + 0)]))
-    })
+    
 }
 
 function randomDigi(data){
