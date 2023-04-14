@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-image: url(/5.jpg);
+    background-position: center;
+    
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+}
+
+#block{
+    margin: 50px;
+}
+
+#picture{
+    justify-content: center;
+    
+    
+}
+
+#randomPicture{
+    align-content: center;
+    text-align: center;
+    list-style-type: none;
+   
+   
+}
+
+li{
+    border: 2px solid black;
+    margin: 25px;
+    padding: 100px;
+}
+
+li img{
+    height: 50%; 
+    width: 50%;
+}
