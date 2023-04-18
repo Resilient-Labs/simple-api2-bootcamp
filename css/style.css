@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+    /* font-family:serif; */
+    font-family:"Noto Serif Display";
+    font-weight:400;
+    color:#69443C;
+}
+
+body{
+    background:url(backgroundFour.png) no-repeat;
+    background-size:cover;
+    min-height:100vh;
+    color:#69443C;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+}
+
+h1{
+    font-size:4rem;
+    margin:1rem;
+}
+
+input, button{
+    font-size:1.5rem;
+    margin:1rem 0 1rem 0;
+    border:none;
+    box-shadow:5px 5px 2px #69443C;
+}
+
+button{
+    background:white;
+    /* box-shadow:5px 5px 2px #69443C; */
+}
+
+button:active{
+    transform: translateY(4px);
+}
+
+h2{
+    margin:1rem;
+    font-family:"Roboto";
+    font-weight:100;
+    text-align:center;
+}
+
+.result{
+    width:50%;
+}
