@@ -6,7 +6,7 @@
 
 Is it Mid? is an API based application that allows the user to type in the name of any anime and returns back the score and a brief description. Depending on the number of that score it is given an addtional ranking of being 'Mid'.
 
-urban dictionary deffinition of Mid :
+what is 'Mid'? :
  "mid" is used to describe something or someone as below average or low quality. It can be used as an insult or to oppose the opinion of another. In other words, "mid" can be used as a replacement for "boring," "not good," "mediocre," "low quality," among others.
 
 
