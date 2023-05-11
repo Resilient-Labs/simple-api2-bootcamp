@@ -1,0 +1,42 @@
+/* reused similar styles from tictactoe and asked chat gpt for how to style the list since that was made in JS */
+
+
+@font-face { font-family: PokemonHollow; src: url('PokemonHollow.ttf'); }
+
+html {
+    font-size: 62.5%;
+    font-family: PokemonHollow; 
+    background: url(togepi-bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list li {
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+#seeBtn {
+    display: block;
+    font-family: PokemonHollow;
+    background: rgba(240,100,77);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+}
