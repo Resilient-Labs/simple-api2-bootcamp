@@ -4,6 +4,7 @@
 
 # About this project
 This project uses an API to convert to over 170 currencies.
+
 Check out my project here: https://jacinthadev.github.io/simple-api2/
 
 ## How It's Made:
