@@ -4,6 +4,7 @@
 
 # About this project
 This project uses an API to convert to over 170 currencies.
+Check out my project here: https://jacinthadev.github.io/simple-api2/
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
@@ -20,8 +21,6 @@ Weather App: https://github.com/JacinthaDev/Weather-API
 Workout App: https://github.com/JacinthaDev/simple-api-1
 
 Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe
-
-Avatar The Last Airbender Slot Machine: https://github.com/JacinthaDev/Slot-Machine
 
 #### API Used:
 
