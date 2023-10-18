@@ -1,22 +1,28 @@
-# 📊 Project: Simple API 2
+# 💰 Currency Converter
 
-### Goal: Display data returned from an api
+<img width="1421" alt="workout app" src="/img/currency-convert.png">
 
-### How to submit your code for review:
+# About this project
+This project uses an API to convert to over 170 currencies.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## Lessons Learned:
+I learned the quirks of dealing with APIs. This API documentation was difficult for me to read and I ended up choosing an API that didn't have all the information I needed so I had to use 2 and make them work together. I learned how to pass information from one function into the next to make everything work together.
+
+## Examples:
+Take a look at similar projects!
+
+Weather App: https://github.com/JacinthaDev/Weather-API
+
+Workout App: https://github.com/JacinthaDev/simple-api-1
+
+Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe
+
+Avatar The Last Airbender Slot Machine: https://github.com/JacinthaDev/Slot-Machine
+
+#### API Used:
+
+https://currencyapi.com/
