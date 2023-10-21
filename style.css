@@ -1,0 +1,43 @@
+.hidden{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Trickster';
+    src: url('Trickster-Reg.ttf')
+}
+
+.text{
+
+    font-family: 'Trickster';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    padding:10px ;
+}
+button{
+    background-color: rgba(62,61,103,255);
+    width: 100px;
+    color: white;
+    font-family: 'Trickster';
+    border-radius: 5px;
+
+}
+.penguin{
+    width: 50%;
+    height: 800px;
+    float: left;
+    overflow: hidden;
+}
+h1{
+    font-size: 100px;
+    color: rgb(62,61,103);
+}
+p{
+    font-size: 30px;
+}
