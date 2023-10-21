@@ -1,22 +1,11 @@
 # 📊 Project: Simple API 2
 
-### Goal: Display data returned from an api
+### This simple API project has the user click a button to present a dad joke to them.
 
-### How to submit your code for review:
+I used HTML, CSS, the API documentation online, and JavaScript to code this project
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![image](https://github.com/fjh321/Simple-API-2-FJH/assets/64885403/46a1615e-4849-438d-98b8-0047929b3d8c)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Lessons Learned:
+
+- With the help of RC mentors I got a better understanding of headers since this API required header values to send an output to me. It was very interesting to learn more about this concept.
