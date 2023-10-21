@@ -1,0 +1,82 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1d;  
+  color: #eaeaea;             
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+  color: #FFD700;           
+  border-bottom: 2px solid #FFD700;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #333333;
+  border: 2px solid #FFD700; 
+  border-radius: 25px;
+  font-size: 1.2em;
+  color: #FFD700;           
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #444444; 
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+  background-color: #222222; 
+}
+
+section {
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.05); 
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h2, h3 {
+  font-size: 2em;
+  color: #C0C0C0; 
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.busd, .eusd {
+  color: #FFD700; 
+}
+
+.beur, .eeur {
+  color: #A7117A;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
