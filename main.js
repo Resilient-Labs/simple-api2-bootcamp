@@ -5,6 +5,7 @@
 document.querySelector('button').addEventListener('click', dadJokes)
 
 function dadJokes() {
+    //code below generated with the help of RC mentor Michael Kazin
     const myHeaders = new Headers();
     myHeaders.append("Accept", "application/json");
     const options = {
@@ -13,6 +14,7 @@ function dadJokes() {
         mode: "cors",
         cache: "default",
     };
+    //code above generated with the help of RC mentor Michael Kazin
     // const character = document.querySelector('input').value
     const url = `https://icanhazdadjoke.com/`
     fetch(url, options)
