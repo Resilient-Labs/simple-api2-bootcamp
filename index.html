@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="QR code Generator">
+  <meta name="keywords" content="one, two, three">
+
+  <title>Health Search Engine</title>
+
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+<h1 class="display-1 text-center">Health Search Engine </h1>
+  <!--
+  <label for="healthTopic">Find out more about your health info on Health My Health Finder here: </label>
+  <input id="healthTopic" placeholder="Enter health problem here" type="text" name="" value=""> -->
+  <!-- <button type="button" name="button">Health Info</button> -->
+  <!-- <h2 id="title"></h2> 
+
+  <img id="imgArticle" src="" alt="">
+  <a id="linkToArticle" href=""> </a>
+
+  <p id="demo"></p> -->
+
+
+<!-- Click here after typing input and clicking on Health Info -->
+
+
+  <!-- Will Print QR Code for Site -->
+
+  <!-- <p id="titleImg"></p>
+  <img id="newPhoto" src="">
+  <img id="photoQR" src=""> -->
+
+
+  <div class="container-center">
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Find Resources for Medical Condition:</span>
+    <input type="text" class="form-control" id="healthTopic" placeholder="Enter medical condition"
+      aria-label="Enter medical condition" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+    </div>
+  </div>
+
+  
+  <div class="alert alert-primary d-flex align-items-center alert-container" id="hidden-alert" role="alert">
+    <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:">
+      <use xlink:href="#exclamation-triangle-fill" />
+    </svg>
+    <div>
+      Please Enter A Valid Input. Example: "Cancer"
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center m-5 load" id="hidden-load" >
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+
+  <div class="card mx-auto" style="width: 18rem;" id="hidden-card">
+    <img  class="card-img-top rounded d-block" id="imgArticle"  src="" alt="">
+    <div class="card-body">
+      <h2 class="card-title" id="title"></h2>
+      <p class="card-text" id="demo"></p>
+      <a class="btn btn-primary" id="linkToArticle" href=""></a>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="assets/js/main.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
