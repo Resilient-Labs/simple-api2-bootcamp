@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>LOZ Info Search</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<h1>Legend of Zelda Info Search</h1>
+
+	<p id="instructions">Search through the Legend of Zelda database for all in-game interactive items in Hyrule! Make sure to enter the correct spellings! </p>
+
+	<div id="searchboxes">
+
+		<div id="BOTW">
+			<input id="searchBOTW" type="text" name="" value="" placeholder="ex: spicy pepper">
+			<button id="buttonBOTW" type="button" name="button">Search BOTW</button>
+		</div>
+
+		<div id="TOTK">
+			<input id="searchTOTK" type="text" name="" value="" placeholder="ex: gibdo">
+			<button id="buttonTOTK" type="button" name="button">Search TOTK</button>
+		</div>
+
+		<div id="MasterMode">
+			<input id="searchMaster" type="text" name="" value="" placeholder="ex: golden bokoblin">
+			<button id="buttonMaster" type="button" name="button">Search MasterMode</button>
+		</div>
+
+	</div>
+
+
+	<div id="container">
+
+		<section id="BOTW-info">
+
+			<h2>Breath of the Wild</h2>
+
+			<h3 id="BOTW-item"></h3>
+
+			<img id="BOTW-pic" src="">
+
+			<p id="BOTW-desc"></p>
+
+			<section class="game-info">
+
+				<p id="BOTW-type"></p>
+
+				<h4 id="BOTW-dtitle"></h4>
+				<ul id="BOTW-drops"></ul>
+
+				<div id="BOTW-equip-prop">
+					<p id="BOTW-att"></p>
+					<p id="BOTW-def"></p>
+					<p id="BOTW-eff"></p>
+					<p id="BOTW-wtype"></p>
+				</div>
+
+				<div id="BOTW-mat-prop">
+					<p id="BOTW-cookeff"></p>
+					<p id="BOTW-heartrec"></p>
+				</div>
+
+				<h4 id="BOTW-cltitle"></h4>
+				<ul id="BOTW-cl"></ul>
+
+			</section>
+		</section>
+		<section id="TOTK-info">
+
+			<h2>Tears of the Kingdom</h2>
+			<p id="disclaimer">Please note photos for TOTK are not yet available through API</p>
+
+			<h3 id="TOTK-item"></h3>
+
+			<img id="TOTK-pic" src="">
+
+			<p id="TOTK-desc"></p>
+
+			<section class="game-info">
+
+				<p id="TOTK-type"></p>
+
+				<h4 id="TOTK-dtitle"></h4>
+				<ul id="TOTK-drops"></ul>
+
+				<div id="TOTK-equip-prop">
+					<p id="TOTK-att"></p>
+					<p id="TOTK-def"></p>
+					<p id="TOTK-eff"></p>
+					<p id="TOTK-wtype"></p>
+				</div>
+
+				<div id="TOTK-mat-prop">
+					<p id="TOTK-cookeff"></p>
+					<p id="TOTK-heartrec"></p>
+				</div>
+
+				<h4 id="TOTK-cltitle"></h4>
+				<ul id="TOTK-cl"></ul>
+
+			</section>
+		</section>
+
+		<section id="MM-info">
+
+			<h2>Master Mode</h2>
+
+			<h3 id="MM-item"></h3>
+
+			<img id="MM-pic" src="">
+
+			<p id="MM-desc"></p>
+
+			<section class="game-info">
+				<p id="MM-type"></p>
+
+				<h4 id="MM-dtitle"></h4>
+				<ul id="MM-drops"></ul>
+
+				<h4 id="MM-cltitle"></h4>
+				<ul id="MM-cl"></ul>
+
+			</section>
+		</section>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

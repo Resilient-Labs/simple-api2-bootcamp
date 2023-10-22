@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;;
+}
+
+@font-face {
+    font-family: 'Zelda Oracles';
+    src: url(ZeldaOracles.ttf);
+}
+
+@font-face {
+    font-family: 'Hylia Serif Beta' ;
+    src: url(HyliaSerifBeta-Regular.otf);
+}
+
+body{
+    background-image: url("../img/hyrule.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#BOTW-info, #TOTK-info, #MM-info{
+    width: 30%;
+    height: 75vh;
+    background-color: rgba(95, 180, 145, 0.8);
+    border: 2px solid rgb(4, 78, 55);
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Zelda Oracles', Arial, Helvetica, sans-serif;
+}
+
+#searchboxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Zelda Oracles', Arial, Helvetica, sans-serif;
+}
+
+h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Hylia Serif Beta', Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    margin: 1%;
+    color: rgb(40, 140, 106);
+}
+
+h2{
+    font-size: 2rem;
+    margin: 1%;
+}
+
+img{
+    width: 45%;
+}
+
+.game-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+h4{
+    margin:1%;
+}
+
+#BOTW-desc, #TOTK-desc, #MM-desc{
+    width: 80%;
+    margin: 1%;
+    font-size: 1.4rem
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+button, input{
+    font-size: 1.6rem;
+    border-radius: 15px;
+    font-family: 'Zelda Oracles', Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+}
+
+
+button{
+background-color: rgb(13, 79, 54);
+color: white;
+}
+
+input{
+    width: 60%;
+}
+
+#BOTW, #TOTK, #MasterMode{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+#disclaimer{
+    font-size: 1.15rem;
+}
+
+#instructions{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Zelda Oracles', Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
