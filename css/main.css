@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Harry P';
+    src: url(harry-p.ttf);
+}
+
+@font-face {
+    font-family: 'HarryPotter7';
+    src: url(harry-potter-7.ttf);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: HarryPotter7;
+    padding: 3%;
+}
+
+h1 {
+    font-family: 'Harry P';
+    font-size: 6rem;
+    color: #c39a1c;
+    margin-bottom: 2%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hat, #wand {
+    color: #c39a1c;
+    cursor: pointer;
+}
+
+#yerAWizard, #spellName {
+    padding-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+    #spellPt1, #spellPt2 {
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+
+    #spellPt2 {
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 1.3vw;
+        margin: 0 20rem;
+        padding: 1.5rem;
+        border-radius: 5px;
+    }
+
+footer {
+    position: fixed;
+    bottom: 1rem;
+    margin: 0 20rem;
+}
+
+    footer p {
+        text-align: center;
+    }
