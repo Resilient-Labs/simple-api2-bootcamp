@@ -2,30 +2,18 @@
   box-sizing: border-box;
 }
 body {
-background: url(https://www.boston-engineering.com/wp-content/uploads/2021/09/BelovedBabyishAustraliancattledog-size_restricted.gif);
-width: 100%;
-background-size: cover;
-margin: 0 auto;
-background-repeat: no-repeat;
-height: 100%;
-/* color: greenyellow; */
-text-align: center;
+  background: url(https://www.boston-engineering.com/wp-content/uploads/2021/09/BelovedBabyishAustraliancattledog-size_restricted.gif);
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  height: 100%;
+  text-align: center;
 }
 
-/* h1{
-  text-decoration: underline white;
-} */
-
-h2{
-  padding-top: 3rem;
-  /* text-align: left; */
-  /* text-decoration: underline white; */
-}
 
 h3{
   padding-top: 4rem;
-  /* text-align: left; */
-  /* text-decoration: underline white; */
 }
 
 img{
@@ -46,8 +34,23 @@ a{
   display: none  !important;
 }
 
-
 .alert-container{
   height: 3rem;
   margin: 0rem 15rem;
+}
+
+.card {
+  width: 21rem !important;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  float: left;
+  height: 600px !important;
+}
+
+.card-container {
+  margin: 0% 10%;
+}
+
+img {
+  padding-top: 0rem !important;
 }
