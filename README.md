@@ -1,22 +1,17 @@
-# 📊 Project: Simple API 2
+# Countries and Information Web App
 
-### Goal: Display data returned from an api
+This is a simple web app that allows you to fetch and display information about different countries. You can enter the name of a country, click the "Fetch Country Data" button, and the app will provide you with various details about the specified country.
 
-### How to submit your code for review:
+## Prerequisites
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Before you begin, ensure you have met the following requirements:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- You need a modern web browser to run this web application.
+
+## Installation
+
+1. Clone this repository to your local machine using:
+   ```bash
+   git clone <repository_url>
+   ```
+# countryInformation
