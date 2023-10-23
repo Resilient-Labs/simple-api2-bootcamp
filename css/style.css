@@ -1,0 +1,73 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font: 62.5% 'Gabarito', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0 5%;
+  padding: 0 5%;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.container section {
+  margin: 0.5%;
+  padding: 0.5%;
+  width: 80%;
+}
+
+#intro h1 {
+  font-size: 4rem;
+}
+
+#intro h2 {
+  font-size: 3rem;
+  margin: 2%;
+}
+
+#factBtn {
+  font-size: 3rem;
+  font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+  border-radius: 1rem;
+  padding: 1%;
+  border: 0.5rem solid black;
+  background: transparent;
+  cursor: pointer;
+}
+
+.bn36 {
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+.bn36:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+#result p {
+  font-size: 2.2rem;
+  margin-bottom: 1%;
+}
