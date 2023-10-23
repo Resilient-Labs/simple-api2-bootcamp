@@ -1,22 +1,20 @@
-# 📊 Project: Simple API 2
+# Reaction API
 
-### Goal: Display data returned from an api
+![Reaction Screenshot](img/reaction.png)
 
-### How to submit your code for review:
+## Overview 🤯😎👀
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The Giphy GIF Search is a web application that allows users to search for GIFs from Giphy and display them. It provides a simple interface for users to enter a search term, and the application fetches and displays a GIF related to that search term.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Features
+
+- **GIF Search:** Enter a search term and click the "Search" button to find GIFs related to the term.
+- **Interactive:** Supports both clicking the "Generate" button and pressing Enter after typing the search term.
+- **GIF Display:** The application displays the first matching GIF from Giphy.
+
+## Technologies Used
+
+- **HTML:** The structure of the web page.
+- **CSS:** Styling and layout of the app.
+- **JavaScript:** To interact with the Giphy API and display GIFs.
+- **Giphy API:** Provides a source of GIFs based on search terms.
