@@ -1,0 +1,70 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  color:white;
+}
+header{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border:1px solid rgb(100, 63, 201);
+  background-color: rgba(81, 81, 177, 0.407);
+  height:1000px;
+  width:25%;
+  text-align: center;
+}
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border:1px solid rgba(46, 21, 115, 0.652);
+  background-color: rgba(81, 81, 177, 0.702);
+  height:1000px;
+  width:30%;
+}
+.images{
+  width:45%;
+}
+img{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 20px;
+}
+
+.info{ 
+   display:flex;
+  flex-direction: column;
+  justify-content: start;
+  width:100%;
+  margin-left: 5%;
+  margin-top: 35px;
+
+}
+.headContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+body{
+  background: url('../img/background.jpg')
+}
