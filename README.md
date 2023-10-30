@@ -2,7 +2,7 @@
 
 ### Goal: Display data returned from an api
 
-<h1 align=center>My Awesome Project</h1>
+<h1>My Awesome Project</h1>
 
 <b>Description</b>: Simple dictionary API that will display the definition of the word searched and part of speech
 
