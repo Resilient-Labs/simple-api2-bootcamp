@@ -1,5 +1,7 @@
 # Simple Poem API
 
+Live Preview: https://codedbycass.github.io/Get-Poems/
+
 <img width="1467" alt="Screenshot 2023-10-22 at 11 56 02 PM" src="https://github.com/codedbycass/Get-Poems/assets/122684139/899ffc98-1737-475e-813e-47659b54cf2c">
 
 ## What
