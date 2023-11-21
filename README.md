@@ -6,7 +6,7 @@ Live Preview: https://codedbycass.github.io/Get-Poems/
 
 ## What
 
-This project makes a request to an external server using a poem API. It's purpose is get the weather!
+This project makes a request to an external server using a poem API. It's purpose is to generate a poem based on a key word!
 
 ## How it works
 Tools: HTML, CSS, JavaScript
