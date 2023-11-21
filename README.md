@@ -2,21 +2,12 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+<h1>My Awesome Project</h1>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<b>Description</b>: Simple dictionary API that will display the definition of the word searched and part of speech
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img width="1437" alt="Screenshot 2023-10-22 at 8 23 20 PM" src="https://github.com/briannawillis195/simple-api2-bootcamp/assets/143905399/949d05fe-9a00-4519-9bb3-9b8063b6836d">
+
+<b>Tech Used</b>: HTML, CSS, JavaScript, JSON
+
+<b>What I Learned</b>: Never in a million years did I think that I would be able to recreate a dictionary app! APIs continue to impress me. I also loved my CSS on this project. It is a simple design but I learned how to play around with the border-radius property and it was very exciting to use.
