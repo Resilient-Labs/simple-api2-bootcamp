@@ -1,22 +1,17 @@
-# 📊 Project: Simple API 2
+# Simple Poem API
 
-### Goal: Display data returned from an api
+Live Preview: https://codedbycass.github.io/Get-Poems/
 
-### How to submit your code for review:
+<img width="1467" alt="Screenshot 2023-10-22 at 11 56 02 PM" src="https://github.com/codedbycass/Get-Poems/assets/122684139/899ffc98-1737-475e-813e-47659b54cf2c">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## What
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This project makes a request to an external server using a poem API. It's purpose is get the weather!
+
+## How it works
+Tools: HTML, CSS, JavaScript
+
+I used the Fetch API and event listener to send requests to an external server. With this function, after the user clicks the button, a poem will be generated to the DOM. I used the appendChild method to show each line. I used CSS to make the simple application more interactive.
+
+## Lessons learned
+I learned how to use a loop in conjunction with append child to show each poem's line separately, as opposed to a large block of text.

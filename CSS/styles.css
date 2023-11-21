@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body {
+    background: url('../IMAGES/pexels-photo-10526880.webp');
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+section {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 100;
+}
+
+button,
+input {
+    border: none;
+    padding: 1rem 4rem;
+}
+
+h1:hover {
+    color:bisque;
+}
+
+
+button:hover,
+li:hover {
+    background: bisque;
+}
