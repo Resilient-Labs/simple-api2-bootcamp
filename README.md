@@ -2,21 +2,16 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+<img src='img/currency-exchange-sc.png'>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+App link: https://alejandralondev.github.io/simple-api2-bootcamp/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This app is a simple currency exchange application which fetches conversion rates from an API. The app allows the user to enter a number amount desired to convert in the input field. The user then writes the appropriate abbreviation from and to desired currency. The display shows the final amount conversion.
+
+How It's Made:
+Tech used: HTML, CSS, JavaScript,
+
+It took a long time to retrieve the data from the API, this was mainly because I had a vision for a drop down menu for selecting currencies. I was not able to accomplish this as I found out the API query parameters did not take what I wanted it to take. I wound up scrapping my first project pushed and rewrote the code so that it was simpler and worked.
+
+Lessons Learned:
+Go with your gut if you feel the project needs to take another approach.
